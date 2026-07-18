@@ -9,9 +9,10 @@
 
 ### 🧠 About Me
 
-- 🎯 Open to opportunities as an **AI/ML Engineer** , **Python developer** and **Data Scientist**
+- 🎯 Open to opportunities as an **AI/ML Engineer**, **Python Developer** and **Data Scientist**
 - 🔭 I build data-driven and ML-based projects — from EDA and modeling to deployable dashboards
 - 🌱 Currently sharpening my skills in **Machine Learning**, **Python**, and applied **Data Science**
+- 🤖 Exploring **LLMs**, **Generative AI**, and **Computer Vision (OpenCV)** as my next focus areas
 - 💡 I enjoy solving real-world problems using data, statistics, and predictive models
 - 📫 Reach me at **harshpketanbhai@gmail.com**
 - 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/harsh-patel-a7387537b/)
@@ -45,6 +46,19 @@
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
 </p>
+
+---
+
+### 🚧 Currently Learning
+
+<p align="left">
+  <img src="https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Generative%20AI-FF6F61?style=for-the-badge&logo=google-gemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+</p>
+
+Actively building toward LLM-powered applications, Generative AI workflows, and Computer Vision projects using OpenCV — expect new repos here soon.
 
 ---
 
