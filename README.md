@@ -1,9 +1,6 @@
 <h1 align="center">Hi 👋, I'm Harsh Patel</h1>
 <h3 align="center">AI/ML Engineer | Python | Data Science | Machine Learning</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=harshpatel0000&label=Profile%20Views&color=0e75b6&style=flat" alt="harshpatel0000" />
-</p>
 
 ---
 
