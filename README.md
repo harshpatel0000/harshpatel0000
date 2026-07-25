@@ -1,173 +1,93 @@
-# 🔮 Easy Predict — Walmart Sales Forecasting
+<h1 align="center">Hi 👋, I'm Harsh Patel</h1>
+<h3 align="center">AI/ML Engineer · Data Scientist · Python Developer</h3>
 
-> An end-to-end machine learning web app that forecasts Walmart store weekly sales using a Random Forest Regressor — with a full analytics dashboard built in Streamlit.
-
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://python.org)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.6.1-orange?logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
-[![Plotly](https://img.shields.io/badge/Plotly-Charts-3F4F75?logo=plotly&logoColor=white)](https://plotly.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
----
-
-## 📌 What It Does
-
-Upload Walmart store sales data, explore it through an interactive dashboard, and generate a **12-week sales forecast** for any store and department — all without writing a single line of code.
-
-Four ML models are trained and compared automatically. The best one (by R² score) is selected and used for predictions.
-
-> ⚠️ **Note:** The trained model file (`best_model_.pkl`) is **not included** in this repo due to its large size (~1.1 GB). See [Getting Started](#-getting-started) to generate it locally.
+<p align="center">
+  <a href="https://www.linkedin.com/in/harsh-patel-a7387537b/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:harshpketanbhai@gmail.com"><img src="https://img.shields.io/badge/Gmail-harshpketanbhai-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/harshpatel0000"><img src="https://img.shields.io/badge/GitHub-harshpatel0000-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
 ---
 
-## ✨ App Pages
+### 🧠 About Me
 
-| Page | What You Get |
-|---|---|
-| 📊 **Dashboard** | KPI metrics, store/department filter, monthly trend & holiday impact |
-| 📈 **EDA** | Distributions, time trends, heatmaps, outlier detection |
-| 🔮 **Prediction** | Interactive 12-week sales forecast with Plotly charts |
-| ℹ️ **About** | Project summary and model info |
-
----
-
-## 🤖 Model Comparison
-
-Four regression models are trained and the best is auto-selected by R² score:
-
-| Model | Notes |
-|---|---|
-| Linear Regression | Baseline |
-| Decision Tree | `random_state=42` |
-| ✅ **Random Forest** | `n_estimators=100`, `max_depth=20`, `n_jobs=-1` — **Best Model** |
-| Gradient Boosting | `random_state=42` |
-
-**Features used:** `Store`, `Dept`, `IsHoliday`, `Year`, `Month`, `Week`
-**Target:** `Weekly_Sales`
+- 🎯 Open to roles as **AI/ML Engineer**, **Data Scientist**, and **Python Developer**
+- 🔭 I build end-to-end ML projects — from EDA and modeling to deployed Streamlit dashboards
+- 🤖 Exploring **LLMs**, **Generative AI**, **RAG**, and **Computer Vision (OpenCV)**
+- 💡 I enjoy solving real-world problems using data, statistics, and predictive models
+- 📫 Reach me at **harshpketanbhai@gmail.com**
 
 ---
 
-## 📊 Dataset
+### 🛠️ Tech Stack
 
-Based on the [Walmart Store Sales Forecasting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting) dataset from Kaggle, cleaned and preprocessed.
+**Machine Learning & Data Science**
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+</p>
 
-| Column | Description |
-|---|---|
-| `Store` / `Store_Name` | Store identifier |
-| `Dept` / `Dept_Name` | Department identifier |
-| `Date` | Week of sales |
-| `Weekly_Sales` | Target — weekly revenue |
-| `IsHoliday` | Whether the week includes a public holiday |
+**Tools & Platforms**
+<p align="left">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+</p>
 
----
-
-## 📁 Project Structure
-
-```
-Easy-Predict/
-│
-├── app.py                            # Streamlit web application (4 pages)
-├── EasyPredict_Part1 - Copy.ipynb    # Data exploration & EDA
-├── EasyPredict_Part2 - Copy.ipynb    # Model training & evaluation → generates best_model_.pkl
-├── walmart_sales_cleaned.csv         # Cleaned Walmart sales dataset
-├── requirements.txt                  # Python dependencies
-├── .gitignore                        # Excludes best_model_.pkl (too large for GitHub)
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/harshpatel0000/Easy-Predict.git
-cd Easy-Predict
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-> ⚠️ Use **`scikit-learn==1.6.1`** exactly — the model was trained with this version. A different version may cause `InconsistentVersionWarning` or incorrect predictions.
-
-### 3. Generate the Model
-
-The app requires `best_model_.pkl` to run. Open and run all cells in:
-
-```
-EasyPredict_Part2 - Copy.ipynb
-```
-
-This notebook will:
-- Load and preprocess `walmart_sales_cleaned.csv`
-- Train all 4 models (Linear Regression, Decision Tree, Random Forest, Gradient Boosting)
-- Auto-select the best model by R² score
-- Save it as `best_model_.pkl` in the project folder
-
-### 4. Run the App
-
-```bash
-streamlit run app.py
-```
-
-Open [http://localhost:8501](http://localhost:8501) in your browser.
+**Web & Other Languages**
+<p align="left">
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+### 🚧 Currently Learning
 
-| Layer | Tools |
-|---|---|
-| Web App | Streamlit |
-| Visualization | Plotly, Matplotlib, Seaborn |
-| Machine Learning | Scikit-learn |
-| Data Processing | Pandas, NumPy |
-| Language | Python 3.11 |
+<p align="left">
+  <img src="https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Generative%20AI-FF6F61?style=for-the-badge&logo=google-gemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+</p>
 
----
-
-## 📦 Requirements
-
-```
-streamlit
-pandas
-numpy
-matplotlib
-seaborn
-plotly
-scikit-learn==1.6.1
-```
-
-Install all at once:
-
-```bash
-pip install -r requirements.txt
-```
+Actively building toward LLM-powered apps, Generative AI workflows, and Computer Vision projects — expect new repos soon.
 
 ---
 
-## 🗺️ Roadmap
+### 🚀 Featured Projects
 
-- [ ] Add XGBoost / LightGBM to model comparison
-- [ ] Include external features (fuel prices, CPI, temperature)
-- [ ] Deploy on Streamlit Cloud
-- [ ] Add store-level performance comparison view
-- [ ] Export forecast results as CSV
-
----
-
-## 👤 Author
-
-**Harsh Patel**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harsh%20Patel-blue?logo=linkedin)](https://www.linkedin.com/in/harsh-patel-a7387537b/)
-[![GitHub](https://img.shields.io/badge/GitHub-harshpatel0000-black?logo=github)](https://github.com/harshpatel0000)
+| Project | Tech | Highlights |
+|---|---|---|
+| [🚗 Used Car Price Predictor](https://github.com/harshpatel0000/Used-Car-Price-Prediction) | PyTorch · Scikit-learn · Streamlit | Neural network price prediction · 7 engineered features · Interactive web app |
+| [🔮 Easy Predict](https://github.com/harshpatel0000/Easy-Predict) | Scikit-learn · Streamlit · Plotly | Walmart sales forecasting · 4 ML models compared · 12-week demand forecast dashboard |
+| [🔐 Lockify](https://github.com/harshpatel0000/Lockify-project) | React · Node.js · MongoDB | Encrypted full-stack password manager · Secure authentication |
+| [🏠 Hostel Management System](https://github.com/harshpatel0000/Hostel-Management-System) | Web Stack | Room & booking management · End-to-end admin workflow |
 
 ---
 
-## 📄 License
+### 💼 Experience
 
-This project is licensed under the [MIT License](LICENSE).
+- 🔬 **Data Science & ML Intern** — Easy Predict *(Jan – Mar 2026)*
+  — Built ML forecasting pipeline · Streamlit dashboard for live predictions
+
+- 💻 **Software Development Intern** — Lockify *(Jul 2025)*
+  — Full-stack web app with encryption · React · Node.js · MongoDB
+
+---
+
+<p align="center"><i>B.E. Computer Science Graduate · CGPA 8.80 · Open to AI/ML, Data Science & Python roles</i></p>
