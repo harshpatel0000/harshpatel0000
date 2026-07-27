@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Harsh Patel</h1>
-<h3 align="center">AI/ML Engineer | Python | Data Science | Machine Learning</h3>
+<h3 align="center">AI/ML Engineer | Python | Data Science | Machine Learning | Data Analyst</h3>
 
 ---
 
