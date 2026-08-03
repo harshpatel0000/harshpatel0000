@@ -54,7 +54,7 @@
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
 </p>
 
-Actively building toward LLM-powered applications, Generative AI workflows, and Computer Vision projects using OpenCV — expect new repos here soon.
+Actively exploring LLM-powered applications, Generative AI, and LangChain while building practical AI solutions. More exciting projects and repositories coming soon.
 
 ---
 
