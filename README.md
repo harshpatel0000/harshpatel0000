@@ -60,6 +60,9 @@ Actively exploring LLM-powered applications, Generative AI, and LangChain while 
 
 ### 🚀 Featured Projects
 
+**[🎓 ProctorAI](https://github.com/harshpatel0000/ProctorAI)**
+Real-time AI exam proctoring system built with OpenCV, YOLOv8, MediaPipe, and face recognition — detects phone usage, multiple faces, and gaze/head-pose deviations from a live webcam feed, then generates a scored PDF violation report at the end of each session.
+
 **[🚗 Used Car Price Predictor](https://github.com/harshpatel0000/Used-Car-Price-Prediction)**
 End-to-end price prediction system using a PyTorch neural network — covers data preprocessing, feature engineering, model training, evaluation, and a Streamlit web app for instant price estimates.
 
@@ -68,9 +71,6 @@ Walmart sales forecasting app built with Scikit-learn and Streamlit — trains a
 
 **[🔐 Lockify](https://github.com/harshpatel0000/Lockify-project)**
 Secure full-stack password manager built with React, Node.js, Express, and MongoDB — implements encrypted credential storage and user authentication.
-
-**[🏠 Hostel Management System](https://github.com/harshpatel0000/Hostel-Management-System)**
-A web-based system for managing students, rooms, bookings, and day-to-day hostel operations — built to streamline a real administrative workflow end-to-end.
 
 ---
 
